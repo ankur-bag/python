@@ -37,4 +37,10 @@ print(a>=b)
 print(a<=b)
 
 #logical operators
+print("logical operations")
 
+print(123 > 100 and 34 == 34)
+print(123 > 100 and 34 != 34)
+print(123 > 100 or 34 != 34)
+print(123 < 100 or 34 != 34)
+print(not(123 > 100))
