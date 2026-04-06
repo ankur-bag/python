@@ -21,7 +21,7 @@
 # print(d)
 
 # dictionary traversal
-d = {10:100,20:200,30:300,40:400}
+# d = {10:100,20:200,30:300,40:400}
 # d2 = d.copy() #creates a shallow copy of d in d2
 
 # for i in d:
@@ -30,8 +30,26 @@ d = {10:100,20:200,30:300,40:400}
 
 # help(dict)
 
-print(d.items())
+# print(d.items())
 
 
+
+
+# d1 = {10:100, 20:200,30:300}
+# sum =0
+# for i in d1:
+#     sum =sum+d1[i]
+
+# print(sum)
+
+
+# a = [1,1,1,1,1,1,1,1,1,2,2,2,2,3,4,5,6,6,6,7,7]
+# d= {}
+# for i in a:
+#     if i in d.keys():
+#         d[i] +=1
+#     else:
+#         d[i] = 1
+# print(d)
 
 
