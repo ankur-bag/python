@@ -1,4 +1,8 @@
-# Object oriented Programming 
+#  Object oriented Programming 
+# -inheritance
+# -polymorphism
+# -encapsulation
+# -abstraction
 
  # class --> Attibutes and Methods 
  
