@@ -62,3 +62,21 @@ print(obj.name3)
 
 #Multilevel Inheritance
 #Grand parent class - Parent class - child class
+
+class Factory:
+    def __init__(self,material,zips):
+        self.material = material
+        self.zips = zip
+    
+class BhopalFactory(Factory):
+    def __init__(self, material, zips,color):
+        super().__init__(material, zips) #called form parent class
+        self.color = color #add ons
+        
+class PuneFactory(BhopalFactory):
+    def __init__(self,material,zips,color,pockets):
+        super().__init__(material,zips,color) #called from parent class
+        self.pockets = pockets #add ons
+        
+
+obj = PuneFactory()
