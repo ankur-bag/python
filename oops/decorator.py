@@ -35,9 +35,9 @@
 # hello()
 
 # def decorate(func):
-#     def wrapper(a,b):
+#     def wrapper(*args,**kwargs):
 #         print("Than you for choosing our calculator")
-#         func(a,b)
+#         func(*args,**kwargs)
 #         print("Thank you for your time")
 #     return wrapper
 
@@ -51,7 +51,17 @@
 #agrs & kargs : arguments in tupple format
 
 
-def add(*args):
-    print(args)
+# def add(*args):
+#     sum =0
+#     for i in args:
+#         sum=sum+i
+#     print(sum)
 
-add(12,15,81,32)
+# add(12,15,81,32)
+
+def info(**kwargs):
+    print("your information is \n")
+    for i in kwargs:
+        print(f"{i} : {kwargs[i]}")
+
+info(name="Ankur", age= "21", designation= "SDE")
